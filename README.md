@@ -26,3 +26,5 @@ Este projeto **NÃO deve ser usado em máquinas que você não possui ou não te
 
 Executar o app.py e entrar http://127.0.0.1:5000 em seu navegador.
 Todas as teclas digitadas após a execução do script keylogger.py serão capturadas.
+
+<img width="1913" height="994" alt="Captura de tela 2025-08-05 211051" src="https://github.com/user-attachments/assets/05790b1a-21c3-497e-b603-a873763760ad" />
